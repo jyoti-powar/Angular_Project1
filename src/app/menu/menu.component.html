@@ -1,0 +1,41 @@
+<style>
+    .inner{
+        height: 200px;
+        background-color: aqua;
+    }
+
+    .outer{
+        height: 100%;
+        width: 100%;
+        justify-content:space-evenly;
+        display: flex;
+        flex-direction: row;
+    }
+    a{
+        text-decoration:none;
+    }
+    h2{
+        text-align: center;
+    }
+
+
+</style>
+<div class="outer">
+<div class="inner">
+    <a routerLink="/starters">
+        <img src="assets\imgs\starter.jpg" alt="" width="250px" height="200px">
+   <h2>Starters</h2></a>
+</div>
+
+<div class="inner">
+    <a routerLink="/main">
+        <img src="assets\imgs\main.jpg" alt="" width="250px" height="200px">
+   <h2>Main Course</h2></a>
+</div>
+
+<div class="inner">
+    <a routerLink="/dessert">
+        <img src="assets\imgs\dessert.jpg" alt="" width="250px" height="200px">
+   <h2>Dessert</h2></a>
+</div>
+</div>
